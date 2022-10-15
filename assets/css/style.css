@@ -1,0 +1,59 @@
+
+/* navbar */
+.navbar{
+  background-color: #05266d;
+}
+ #navbarNav{
+  font-weight: bold;
+}
+
+.nav-item a{
+  color: white;
+}
+
+.nav-item a:hover{
+  color: green;
+}
+.dropdown-menu{
+  background-color: darkblue;
+}
+
+
+
+/* slider  */
+
+
+  /*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+    background: #f3f9fd;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .clients .col-lg-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .clients img:hover {
+    filter: none;
+    transform: scale(1.1);
+  }
+  footer svg{
+    margin: 5px;
+  }
+
+  @media (max-width:570px) {
+    .about{
+      margin: 1px;
+      padding: 10px;
+    }
+    .about img{
+      display: none;
+      
+    }
+    
+  }
